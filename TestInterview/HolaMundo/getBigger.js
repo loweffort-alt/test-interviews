@@ -11,9 +11,9 @@ function getBigger(arr) {
     };
     const absAcc = Math.abs(acc);
     const absEl = Math.abs(el);
-    return absAcc < absEl ? acc : acc = el
+    return absAcc > absEl ? acc : acc = el
   });
-  console.log(bigger)
+  //console.log(bigger)
   return bigger;
 }
 
